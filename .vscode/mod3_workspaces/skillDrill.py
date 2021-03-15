@@ -1,0 +1,4 @@
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+for i voters in counties_dict.items():
+    f'{"county"} county has {voters:,.} registered voters. "
+
