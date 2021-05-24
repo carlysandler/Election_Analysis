@@ -24,9 +24,12 @@ To fulfill the brief, the following deliverables are created:
 
 ---
 __Deliverale 1:__
+
 <img width="889" alt="d1" src="https://user-images.githubusercontent.com/77628698/119379122-1396e980-bc8d-11eb-9a9f-22bdf663c673.png">
 
+
 __Deliverable 2:__
+
 <img width="335" alt="d2" src="https://user-images.githubusercontent.com/77628698/119379185-27dae680-bc8d-11eb-9f15-3d3fadc171ec.png">
 
 ---
