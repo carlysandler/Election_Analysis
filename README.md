@@ -23,6 +23,11 @@ To fulfill the brief, the following deliverables are created:
   - Deliverable 3: A written Analysis of the Election Audit
 
 ---
+__Deliverale 1:__
+<img width="889" alt="d1" src="https://user-images.githubusercontent.com/77628698/119379122-1396e980-bc8d-11eb-9a9f-22bdf663c673.png">
+
+__Deliverable 2:__
+<img width="335" alt="d2" src="https://user-images.githubusercontent.com/77628698/119379185-27dae680-bc8d-11eb-9f15-3d3fadc171ec.png">
 
 ---
 ## Election-Audit Results: 
@@ -55,6 +60,9 @@ Based on the analysis and my experience in writing python scripts for election a
 
 To address this, I would suggest modifiying the portion of the script that utilzing list indexing to retrieve candidate/county names. Instead of hard-coding the row number of the data file, a future adapter of this script can instead search for column header names like "County", "State", or "Candidate". Data from larger elections may not be so user friendly in format. With more potential variables to delve into and larger date files, the more automated the script is in the extraction process, the less time it will take for modification down the line. 
 
+<img width="439" alt="d3_1" src="https://user-images.githubusercontent.com/77628698/119378853-b7cc6080-bc8c-11eb-9765-28d94823fb2d.png">
+
+
 2. Secondly, I would suggest adding a third KPI to analyse when auditing the election data: method of voting. The data provided did shed light on how votes were casted in each county for the congressional candidates. There were three voting methods used to support the collection of votes and aid in voter turnout:
 
   - Mail-in Ballot, hand counted
@@ -62,6 +70,8 @@ To address this, I would suggest modifiying the portion of the script that utilz
   - Direct Recoding Electiontric, computer counted
 
 To ensure that future elections are accurately and effectively managed, one should consider adding a analysis on voter turnout by method: This can prove useful when candidates or campagin teams need further corroboration on the final election results, especially when mail-in ballot counting risks human error. Furthermore, election commisions can use this information down the line when allocating resources to election infrastructure after the analysis indicates the most popular methodologies by the voters. Campaign teams can utilize this information to optimize advertising resources closer to the election, creating localized campaign strategies to sway in-between voters. To accomplish this, one can adapt the current "county" or "candidate" for loop iterations to look for column headers with categorical "voter method" data rows.
+
+<img width="491" alt="d3_2" src="https://user-images.githubusercontent.com/77628698/119379091-0974eb00-bc8d-11eb-9c23-271497b4abaa.png">
 
 
 
