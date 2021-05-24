@@ -23,9 +23,7 @@ To fulfill the brief, the following deliverables are created:
   - Deliverable 3: A written Analysis of the Election Audit
 
 ---
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.9.2, Visual Code Studio - Insiders 1.55.0
+
 ---
 ## Election-Audit Results: 
 The analysis of the election shows that:
